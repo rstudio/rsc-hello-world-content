@@ -1,0 +1,46 @@
+Encoding: UTF-8
+Package: plumber
+Type: Package
+Title: An API Generator for R
+Version: 0.4.6
+Authors@R: c(
+  person(family="Trestle Technology, LLC", role="aut", email="cran@trestletech.com"),
+  person("Jeff", "Allen", role="cre", email="cran@trestletech.com"),
+  person("Frans", "van Dunné", role="ctb", email="frans@ixpantia.com"),
+  person("Sebastiaan", "Vandewoude", role="ctb", email="sebastiaanvandewoude@gmail.com"),
+  person(family="SmartBear Software", role=c("ctb", "cph"), comment="swagger-ui"))
+License: MIT + file LICENSE
+BugReports: https://github.com/trestletech/plumber/issues
+URL: https://www.rplumber.io (site)
+        https://github.com/trestletech/plumber (dev)
+Description: Gives the ability to automatically generate and serve an HTTP API
+    from R functions using the annotations in the R documentation around your
+    functions.
+Depends: R (>= 3.0.0)
+Imports: R6 (>= 2.0.0), stringi (>= 0.3.0), jsonlite (>= 0.9.16),
+        httpuv (>= 1.2.3), crayon
+LazyData: TRUE
+ByteCompile: TRUE
+Suggests: testthat (>= 0.11.0), XML, rmarkdown, PKI, base64enc,
+        htmlwidgets, visNetwork, analogsea
+Collate: 'content-types.R' 'cookie-parser.R' 'parse-globals.R'
+        'images.R' 'parse-block.R' 'globals.R' 'serializer-json.R'
+        'shared-secret-filter.R' 'post-body.R' 'query-string.R'
+        'plumber.R' 'default-handlers.R' 'digital-ocean.R'
+        'find-port.R' 'includes.R' 'new-rstudio-project.R' 'paths.R'
+        'plumber-static.R' 'plumber-step.R' 'response.R'
+        'serializer-content-type.R' 'serializer-html.R'
+        'serializer-htmlwidget.R' 'serializer-xml.R' 'serializer.R'
+        'session-cookie.R' 'swagger.R'
+RoxygenNote: 6.0.1
+NeedsCompilation: no
+Packaged: 2018-06-04 22:23:10 UTC; barret
+Author: Trestle Technology, LLC [aut],
+  Jeff Allen [cre],
+  Frans van Dunné [ctb],
+  Sebastiaan Vandewoude [ctb],
+  SmartBear Software [ctb, cph] (swagger-ui)
+Maintainer: Jeff Allen <cran@trestletech.com>
+Repository: CRAN
+Date/Publication: 2018-06-05 04:43:03 UTC
+Built: R 3.5.0; ; 2018-06-06 10:58:22 UTC; unix
