@@ -1,1 +1,1 @@
-Examples that demonstrate various content types
+Various basic examples of content types
