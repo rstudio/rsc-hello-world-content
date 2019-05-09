@@ -1,5 +1,5 @@
 ---
-title: "New title!"
+title: "Title 3"
 author: "Someone"
 date: "March 2, 2015"
 output: html_document
