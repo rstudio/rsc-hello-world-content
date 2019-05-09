@@ -1,6 +1,6 @@
 ---
-title: "R Markdown with Parameters by Jon"
-author: "Aron Atkins!"
+title: "New title!"
+author: "Someone"
 date: "March 2, 2015"
 output: html_document
 runtime: shiny
