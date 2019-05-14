@@ -1,6 +1,6 @@
 #* @get /
 root <- function(){
-  "hello world 2!1"
+  "first deploy"
 }
 
 #* @get /mean
