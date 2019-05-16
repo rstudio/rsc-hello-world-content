@@ -1,5 +1,5 @@
 ---
-title: "Deploy 1"
+title: "Deploy 1 new endpoint"
 author: "Aron Atkins!"
 date: "March 2, 2015"
 output: html_document
