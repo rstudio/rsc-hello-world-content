@@ -1,5 +1,5 @@
 ---
-title: "Second App - same repo and branch - NEW UPDATE! AGAIN!"
+title: "Deploy 1"
 author: "Aron Atkins!"
 date: "March 2, 2015"
 output: html_document
