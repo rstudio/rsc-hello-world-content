@@ -1,1 +1,1 @@
-Various basic examples of content types
+This branch contains a manifest.json in the root
