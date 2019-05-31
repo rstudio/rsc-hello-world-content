@@ -1,0 +1,12 @@
+name: rmd-site
+title: rmd-site
+username: admin
+account: admin
+server: 192.168.52.51
+hostUrl: http://192.168.52.51:3939/__api__
+appId: 4
+bundleId: 10
+url: http://192.168.52.51:3939/content/4/
+when: 1558037974.41843
+asMultiple: FALSE
+asStatic: FALSE
