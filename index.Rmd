@@ -1,0 +1,3 @@
+# R Markdown site
+
+IDE Deploy. It has a link to [article](article.html) and [another](another.html).
