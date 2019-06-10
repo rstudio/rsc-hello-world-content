@@ -1,0 +1,12 @@
+name: plumber2
+title: plumber
+username: admin
+account: admin
+server: 192.168.52.51
+hostUrl: http://192.168.52.51:3939/__api__
+appId: 1
+bundleId: 2
+url: http://192.168.52.51:3939/content/1/
+when: 1559922321.40093
+asMultiple: FALSE
+asStatic: FALSE

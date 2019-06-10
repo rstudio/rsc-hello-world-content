@@ -1,0 +1,12 @@
+name: plumber
+title: plumber
+username: anna
+account: anna
+server: localhost
+hostUrl: http://localhost:3939/__api__
+appId: 14
+bundleId: 25
+url: http://localhost:3939/content/14/
+when: 1559920441.33284
+asMultiple: FALSE
+asStatic: FALSE
