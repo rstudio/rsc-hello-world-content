@@ -1,5 +1,5 @@
 ---
-title: "deploy #2"
+title: "deploy #update2"
 author: "me"
 date: "March 29, 2016"
 output: html_document
