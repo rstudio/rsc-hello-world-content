@@ -1,3 +1,3 @@
 # R Markdown site
 
-NO Update! IDE Deploy. It has a link to [article](article.html) and [another](another.html).
+NO again Update! IDE Deploy. It has a link to [article](article.html) and [another](another.html).
