@@ -1,5 +1,5 @@
 ---
-title: "After the update"
+title: "New commit to test updating not auto enabling"
 author: "Mike"
 date: "June 11"
 output: html_document
