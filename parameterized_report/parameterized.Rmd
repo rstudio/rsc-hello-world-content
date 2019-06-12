@@ -1,6 +1,6 @@
 ---
 title: "Not empty"
-author: "me"
+author: "Unknown - I have amnesia!"
 date: "March 29, 2016"
 output: html_document
 resource_files:
