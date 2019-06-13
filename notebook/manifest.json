@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "metadata": {
+    "appmode": "jupyter-static",
+    "entrypoint": "MyNotebook.ipynb"
+  },
+  "locale": "en_US.UTF-8",
+  "python": {
+    "version": "3.7.0",
+    "package_manager": {
+      "name": "pip",
+      "version": "18.0",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {}
+}
