@@ -48,7 +48,6 @@ pyOpenSSL==18.0.0
 python-dateutil==2.7.3
 pyzmq==17.1.2
 qtconsole==4.4.1
--e git+git@github.com:rstudio/rsconnect-jupyter.git@c5c13db99524b9d7d8608f981976e0a47b5b93c0#egg=rsconnect_jupyter
 Send2Trash==1.5.0
 service-identity==17.0.0
 simplegeneric==0.8.1
