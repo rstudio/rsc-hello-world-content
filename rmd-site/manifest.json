@@ -601,9 +601,6 @@
 		"packrat/desc/stringi" : {
 			"checksum" : "c66ce176a5274742823a824849ccd5e5"
 		},
-		"packrat/desc/stringr" : {
-			"checksum" : "145d21bc26799f2846797b1446e2f889"
-		},
 		"packrat/desc/tinytex" : {
 			"checksum" : "55b8ec519183188b3de16fda6590891e"
 		},
