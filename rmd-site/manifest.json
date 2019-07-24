@@ -10,11 +10,11 @@
 		"has_parameters" : false
 	},
 	"packages" : {
-		"Rcpp" : {
+		"Rcpp-broken" : {
 			"Source" : "CRAN",
 			"Repository" : "https://cran.rstudio.com/",
 			"description" : {
-				"Package" : "Rcpp",
+				"Package" : "Rcpp-broken",
 				"Title" : "Seamless R and C++ Integration",
 				"Version" : "0.12.17",
 				"Date" : "2018-05-09",
