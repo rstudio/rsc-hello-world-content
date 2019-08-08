@@ -11,7 +11,7 @@
   },
   "packages": {
     "Rcpp": {
-      "Source": "CRAN",
+      "Source": "MyCustomRepo",
       "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "Rcpp",
@@ -39,7 +39,7 @@
     },
     "base64enc": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "base64enc",
         "Version": "0.1-3",
@@ -60,7 +60,7 @@
     },
     "digest": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "digest",
         "Author": "Dirk Eddelbuettel <edd@debian.org> with contributions \n by Antoine Lucas, Jarek Tuszynski, Henrik Bengtsson, Simon Urbanek,\n Mario Frasca, Bryan Lewis, Murray Stokely, Hannes Muehleisen,\n Duncan Murdoch, Jim Hester, Wush Wu, Qiang Kou, Thierry Onkelinx, \n Michel Lang, Viliam Simko, Kurt Hornik, Radford Neal, and Kendon Bell.",
@@ -84,7 +84,7 @@
     },
     "evaluate": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "evaluate",
         "Type": "Package",
@@ -111,7 +111,7 @@
     },
     "glue": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "glue",
         "Title": "Interpreted String Literals",
@@ -140,7 +140,7 @@
     },
     "highr": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "highr",
         "Type": "Package",
@@ -166,7 +166,7 @@
     },
     "htmltools": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "htmltools",
         "Type": "Package",
@@ -194,7 +194,7 @@
     },
     "jsonlite": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "jsonlite",
         "Version": "1.6",
@@ -218,7 +218,7 @@
     },
     "knitr": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "knitr",
         "Type": "Package",
@@ -248,7 +248,7 @@
     },
     "magrittr": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "magrittr",
         "Type": "Package",
@@ -270,7 +270,7 @@
     },
     "markdown": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "markdown",
         "Type": "Package",
@@ -297,7 +297,7 @@
     },
     "mime": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "mime",
         "Type": "Package",
@@ -323,7 +323,7 @@
     },
     "rmarkdown": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "rmarkdown",
         "Type": "Package",
@@ -352,7 +352,7 @@
     },
     "stringi": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "stringi",
         "Version": "1.4.3",
@@ -380,7 +380,7 @@
     },
     "stringr": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "stringr",
         "Title": "Simple, Consistent Wrappers for Common String Operations",
@@ -408,7 +408,7 @@
     },
     "tinytex": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "tinytex",
         "Type": "Package",
@@ -435,7 +435,7 @@
     },
     "xfun": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "xfun",
         "Type": "Package",
@@ -463,7 +463,7 @@
     },
     "yaml": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "yaml",
         "Type": "Package",
