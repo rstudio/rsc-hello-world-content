@@ -12,7 +12,7 @@
   "packages": {
     "Rcpp": {
       "Source": "CRAN",
-      "Repository": "https://cran.example.com/",
+      "Repository": "https://cran.nonexistent/",
       "description": {
         "Package": "Rcpp",
         "Title": "Seamless R and C++ Integration",
