@@ -1,0 +1,8 @@
+---
+title: "RMarkdown Example"
+output: html_document
+---
+
+```{r}
+stop("You shall not pass!")
+```
