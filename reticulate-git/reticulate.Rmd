@@ -1,0 +1,10 @@
+---
+title: "reticulate"
+output: html_document
+---
+
+```{r}
+library(reticulate)
+source_python("test.py")
+run(30)
+```
