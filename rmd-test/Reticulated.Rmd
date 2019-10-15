@@ -1,0 +1,27 @@
+---
+title: "Reticulated"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(reticulate)
+use_python("./envs/py3/bin/python")
+print(py_discover_config())
+```
+
+```{python}
+import numpy as np
+yvals = np.log(np.arange(1, 101))
+print(yvals)
+```
+
+## About
+
+This is an R Markdown document with embedded Python content using reticulate. M
+
+## A Plot
+
+```{r}
+plot(py$yvals)
+```
