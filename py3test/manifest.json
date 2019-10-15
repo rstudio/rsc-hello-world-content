@@ -10,7 +10,7 @@
   },
   "metadata": {
     "entrypoint": "data-mapper.ipynb",
-    "appmode": "jupyter-static3"
+    "appmode": "jupyter-static"
   },
   "locale": "en_US.UTF-8",
   "files": {}
