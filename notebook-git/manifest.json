@@ -1,0 +1,17 @@
+{
+  "locale": "en_US.UTF-8",
+  "files": {},
+  "metadata": {
+    "entrypoint": "Basic Numpy Notebook.ipynb",
+    "appmode": "jupyter-static"
+  },
+  "version": 1,
+  "python": {
+    "package_manager": {
+      "package_file": "requirements.txt",
+      "version": "18.0",
+      "name": "pip"
+    },
+    "version": "3.5.5"
+  }
+}
