@@ -8,3 +8,7 @@ library(reticulate)
 source_python("test.py")
 run(30)
 ```
+
+```{python}
+print('test')
+```
