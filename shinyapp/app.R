@@ -13,7 +13,7 @@ library(shiny)
 ui <- shinyUI(fluidPage(
    
    # Application title
-   titlePanel("Deploy rewind"),
+   titlePanel("fastforward"),
    
    # Sidebar with a slider input for number of bins 
    sidebarLayout(
