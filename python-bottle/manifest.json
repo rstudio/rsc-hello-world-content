@@ -1,24 +1,24 @@
 {
-    "locale": "en_US.UTF-8",
-    "python": {
-        "version": "2.7.17",
-        "package_manager": {
-            "version": "18.0",
-            "name": "pip",
-            "package_file": "requirements.txt"
-        }
-    },
-    "version": 1,
-    "files": {
-        "app.py": {
-            "checksum": "5e6502fb86b747c39d1da19b9a93fa8e"
-        },
-        "requirements.txt": {
-            "checksum": "da2fd86a6fa5b7f8c59bc97abb9ce55c"
-        }
-    },
-    "metadata": {
-        "appmode": "python-api",
-        "entrypoint": "app:app"
+  "version": 1,
+  "metadata": {
+    "appmode": "jupyter-static",
+    "entrypoint": "app:app"
+  },
+  "locale": "en_US.UTF-8",
+  "python": {
+    "version": "3.7.4",
+    "package_manager": {
+      "name": "pip",
+      "version": "19.3.1",
+      "package_file": "requirements.txt"
     }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "ad24b19f2b95e7ba02adf1477ae8eed7"
+    },
+    "app.py": {
+      "checksum": "17fb72a6b34069a03be6c01f55bfb6e0"
+    }
+  }
 }
