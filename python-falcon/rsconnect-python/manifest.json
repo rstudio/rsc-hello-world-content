@@ -1,0 +1,11 @@
+{
+    "http://localhost:3939": {
+        "server_url": "http://localhost:3939",
+        "filename": "/Users/kgartland/work/connect/test/examples/python-falcon/manifest.json",
+        "app_url": "http://localhost:3939/connect/#/apps/195",
+        "app_id": 195,
+        "app_guid": "e9760562-75cd-4fc1-a1ae-affbdb874710",
+        "title": "app:api",
+        "app_mode": "python-api"
+    }
+}

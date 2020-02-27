@@ -1,0 +1,11 @@
+{
+    "http://localhost:3939": {
+        "server_url": "http://localhost:3939",
+        "filename": "/Users/kgartland/work/connect/test/examples/python-flaskapi/manifest.json",
+        "app_url": "http://localhost:3939/connect/#/apps/198",
+        "app_id": 198,
+        "app_guid": "9e3398e8-f4c4-4874-b975-cfe15d1eeacd",
+        "title": "app:app",
+        "app_mode": "python-api"
+    }
+}
