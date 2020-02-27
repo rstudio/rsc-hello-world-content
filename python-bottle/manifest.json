@@ -1,7 +1,7 @@
 {
   "version": 1,
   "metadata": {
-    "appmode": "jupyter-static",
+    "appmode": "python-api",
     "entrypoint": "app:app"
   },
   "locale": "en_US.UTF-8",
