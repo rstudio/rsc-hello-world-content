@@ -13,5 +13,5 @@ class PingResource:
         resp.media = data
 
 
-api = falcon.API()
-api.add_route("/ping", PingResource())
+app = falcon.API()
+app.add_route("/ping", PingResource())
