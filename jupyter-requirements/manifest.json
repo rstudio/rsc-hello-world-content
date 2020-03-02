@@ -1,0 +1,17 @@
+{
+  "locale": "en_US.UTF-8", 
+  "python": {
+    "version": "2.7.16", 
+    "package_manager": {
+      "version": "19.2.2", 
+      "name": "pip", 
+      "package_file": "requirements.txt"
+    }
+  }, 
+  "version": 1, 
+  "files": {}, 
+  "metadata": {
+    "appmode": "jupyter-static", 
+    "entrypoint": "haanna.ipynb"
+  }
+}

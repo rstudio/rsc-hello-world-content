@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "python": {
+    "version": "3.5.6",
+    "package_manager": {
+      "package_file": "requirements.txt",
+      "version": "10.0.1",
+      "name": "pip"
+    }
+  },
+  "metadata": {
+    "entrypoint": "data-mapper.ipynb",
+    "appmode": "jupyter-static"
+  },
+  "locale": "en_US.UTF-8",
+  "files": {}
+}
