@@ -6,6 +6,7 @@ app = Bottle()
 
 
 @app.route("/ping", name="ping")
+print('test')
 def ping():
     return {
         "headers": dict(request.headers),
