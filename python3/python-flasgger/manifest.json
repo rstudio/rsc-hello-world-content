@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "metadata": {
+    "appmode": "python-api",
+    "entrypoint": "app:app"
+  },
+  "locale": "en_US.UTF-8",
+  "python": {
+    "version": "3.7.4",
+    "package_manager": {
+      "name": "pip",
+      "version": "19.3.1",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "474eed1f84c434fe842b6880ae8a54a7"
+    },
+    "app.py": {
+      "checksum": "09c7a975e32b658a1d750c2039292a97"
+    },
+    "greetings.json": {
+      "checksum": "2cbf594b774a0e7398d5b7f2a45eaf18"
+    }
+  }
+}
