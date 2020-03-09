@@ -1,0 +1,5 @@
+flask
+flask_restx
+numpy
+pandas
+werkzeug<=0.16.1
