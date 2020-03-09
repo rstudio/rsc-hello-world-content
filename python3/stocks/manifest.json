@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "metadata": {
+    "appmode": "python-api",
+    "entrypoint": "app:app"
+  },
+  "locale": "en_US.UTF-8",
+  "python": {
+    "version": "3.7.4",
+    "package_manager": {
+      "name": "pip",
+      "version": "19.3.1",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "529bc04e5217e54404501a284982fa3b"
+    },
+    ".DS_Store": {
+      "checksum": "194577a7e20bdcc7afbb718f502c134c"
+    },
+    "prices.csv": {
+      "checksum": "e0bc27e3dd358c360863807e09079985"
+    },
+    "app.py": {
+      "checksum": "a8dbb7783cb9ca9e14d827416553bb95"
+    }
+  }
+}
