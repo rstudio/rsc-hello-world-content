@@ -1,0 +1,24 @@
+{
+    "locale": "en_US.UTF-8",
+    "python": {
+        "version": "3.8.2",
+        "package_manager": {
+            "version": "18.0",
+            "name": "pip",
+            "package_file": "requirements.txt"
+        }
+    },
+    "version": 1,
+    "files": {
+        "app.py": {
+            "checksum": "fdc2cf0c9333af65ab6c431b21330066"
+        },
+        "requirements.txt": {
+            "checksum": "275e7b046d81bdd9d3b0824a71f600c1"
+        }
+    },
+    "metadata": {
+        "appmode": "python-streamlit",
+        "entrypoint": "app.py"
+    }
+}
