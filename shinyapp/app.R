@@ -14,6 +14,7 @@ ui <- shinyUI(fluidPage(
    
    # Application title
    titlePanel("Gremlins 9-noman-2"),
+   oopsies
    
    # Sidebar with a slider input for number of bins 
    sidebarLayout(
