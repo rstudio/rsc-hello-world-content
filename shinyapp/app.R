@@ -13,7 +13,7 @@ library(shiny)
 ui <- shinyUI(fluidPage(
    
    # Application title
-   titlePanel("race-condition update"),
+   titlePanel("race-condition update again"),
    
    # Sidebar with a slider input for number of bins 
    sidebarLayout(
