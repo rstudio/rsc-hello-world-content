@@ -19,7 +19,7 @@ ui <- shinyUI(fluidPage(
    sidebarLayout(
       sidebarPanel(
          sliderInput("bins",
-                     "Number of bins:",
+                     "Number of blah bins:",
                      min = 1,
                      max = 100,
                      value = 56)
