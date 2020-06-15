@@ -13,7 +13,7 @@ library(shiny)
 ui <- shinyUI(fluidPage(
    
    # Application title
-   titlePanel("Gremlins 2 blah blah 9"),
+   titlePanel("Gremlins 2 blah blah 9 blah"),
    
    # Sidebar with a slider input for number of bins 
    sidebarLayout(
