@@ -1,0 +1,11 @@
+{
+    "https://rsc.radixu.com": {
+        "server_url": "https://rsc.radixu.com",
+        "filename": "/Users/scottmmjackson/rsc-hello-world-content/notebook-diagnostic-py3/manifest.json",
+        "app_url": "https://rsc.radixu.com/connect/#/apps/4523",
+        "app_id": "5ae322eb-8d30-4bde-bb28-54e74c9ebfe5",
+        "app_guid": "5ae322eb-8d30-4bde-bb28-54e74c9ebfe5",
+        "title": "diagnostic",
+        "app_mode": "jupyter-static"
+    }
+}
