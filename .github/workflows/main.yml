@@ -18,11 +18,11 @@ jobs:
         with:
           python-version: 3.x
     
-      - name: Cache all rsconnect-python directories to track publishing information
+      - name: Cache all rsconnect-python manifests to track publishing information
         uses: actions/cache@v2
         with:
           path: |
-            **/rsconnect-python
+            **/rsconnect-python/manifest.json
           key: rsconnect-python-${{ hashFiles('**/manifest.json') }}
           restore-keys: |
             rsconnect-python-
@@ -32,6 +32,9 @@ jobs:
     
       - name: Setup RStudio Connect tools
         uses: rstudio/actions/setup-connect@main
+
+      - name: Show any existing deployment metadata
+        run: ls **/rsconnect-python/manifest.json || true
     
       - name: Publish some things
         uses: rstudio/actions/connect-publish@main
