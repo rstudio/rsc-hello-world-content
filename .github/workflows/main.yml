@@ -24,6 +24,9 @@ jobs:
           path: |
             **/rsconnect-python
           key: rsconnect-python-${{ hashFiles('**/manifest.json') }}
+
+      - name: Install libcurl bits
+        run: sudo apt-get install -y libcurl4-openssl-dev
     
       - name: Setup RStudio Connect tools
         uses: rstudio/actions/setup-connect@main
