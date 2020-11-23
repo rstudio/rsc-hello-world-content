@@ -23,7 +23,7 @@ jobs:
         with:
           path: |
             **/rsconnect-python
-          key: rsconnect-python-${{ hashFiles("**/manifest.json") }}
+          key: rsconnect-python-${{ hashFiles('**/manifest.json') }}
     
       - name: Setup RStudio Connect tools
         uses: rstudio/actions/setup-connect@main
