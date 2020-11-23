@@ -5,34 +5,34 @@ on:
   pull_request:
     branches: [main, master]
 jobs:
-  name: main
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v2
-  
-    - uses: r-lib/actions/setup-r@v1
-      with:
-      r-version: 3.6.3
-  
-    - uses: actions/setup-python@v2
-      with:
-      python-version: 3.x
-  
-    - name: Cache all rsconnect-python directories to track publishing information
-      uses: actions/cache@v2
-      with:
-      path: |
-        **/rsconnect-python
-  
-    - name: Setup RStudio Connect tools
-      uses: rstudio/actions/setup-connect@main
-  
-    - name: Publish some things
-      uses: rstudio/actions/connect-publish@main
-      with:
-        url: https://${{ secrets.RSTUDIO_CONNECT_API_KEY }}@beta.rstudioconnect.com
-        dir: |
-            ./plumber
-            ./shinyrmd
-            ./python3
-            ./notebook-diagnostic
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+    
+      - uses: r-lib/actions/setup-r@v1
+        with:
+        r-version: 3.6.3
+    
+      - uses: actions/setup-python@v2
+        with:
+        python-version: 3.x
+    
+      - name: Cache all rsconnect-python directories to track publishing information
+        uses: actions/cache@v2
+        with:
+        path: |
+          **/rsconnect-python
+    
+      - name: Setup RStudio Connect tools
+        uses: rstudio/actions/setup-connect@main
+    
+      - name: Publish some things
+        uses: rstudio/actions/connect-publish@main
+        with:
+          url: https://${{ secrets.RSTUDIO_CONNECT_API_KEY }}@beta.rstudioconnect.com
+          dir: |
+              ./plumber
+              ./shinyrmd
+              ./python3
+              ./notebook-diagnostic
