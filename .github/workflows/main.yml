@@ -39,3 +39,4 @@ jobs:
               ./plumber
               ./shinyrmd
               ./python3/python-flask
+              ./rmd-site
