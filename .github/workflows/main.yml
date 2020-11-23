@@ -38,5 +38,5 @@ jobs:
           dir: |
               ./plumber
               ./shinyrmd
-              ./python3
+              ./python3/python-flask
               ./notebook-diagnostic
