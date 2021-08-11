@@ -1,0 +1,24 @@
+{
+    "locale": "en_US.UTF-8",
+    "python": {
+        "version": "3.7.4",
+        "package_manager": {
+            "version": "18.0",
+            "name": "pip",
+            "package_file": "requirements.txt"
+        }
+    },
+    "version": 1,
+    "files": {
+        "app.py": {
+            "checksum": "54a888dcdcc86b76ab8c6523924ca4f9"
+        },
+        "requirements.txt": {
+            "checksum": "6f83f7f33bf6983dd474ecbc6640a26b"
+        }
+    },
+    "metadata": {
+        "appmode": "python-dash",
+        "entrypoint": "app:app"
+    }
+}
