@@ -47,7 +47,7 @@ offset = Slider(title="offset", value=0.0, start=-5.0, end=5.0, step=0.1)
 amplitude = Slider(title="amplitude", value=1.0, start=-5.0, end=5.0, step=0.1)
 phase = Slider(title="phase", value=0.0, start=0.0, end=2 * np.pi)
 freq = Slider(title="frequency", value=1.0, start=0.1, end=5.1, step=0.1)
-
+freq = Slider(title="frequency", value=1.0, start=0.1, end=5.1, step=0.1)
 
 # Set up callbacks
 def update_title(attrname, old, new):
