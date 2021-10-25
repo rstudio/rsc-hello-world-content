@@ -8,7 +8,7 @@ runtime: shiny
 
 ```{r, echo = FALSE}
 library(shiny)
-numericInput("rows", "How many cars?", 5)
+numericInput("rows", "How many cars?", 4)
 
 renderTable({
   head(cars, input$rows)
