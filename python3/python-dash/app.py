@@ -30,7 +30,7 @@ app.layout = html.Div(
                             options=[
                                 {"label": i, "value": i} for i in ["Linear", "Log"]
                             ],
-                            value="Linear",
+                            value="ThIs WaS uPdAtEd",
                             labelStyle={"display": "inline-block"},
                         ),
                     ],
