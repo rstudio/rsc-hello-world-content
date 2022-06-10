@@ -13,16 +13,16 @@ library(shiny)
 ui <- shinyUI(fluidPage(
    
    # Application title
-   titlePanel("Old Faithful Geyser Data - june 10 update 3"),
+   titlePanel("Old Faithful Geyser Data - june 10 update 4"),
    
    # Sidebar with a slider input for number of bins 
    sidebarLayout(
       sidebarPanel(
          sliderInput("bins",
-                     "Number of bins - june 10 update 3:",
+                     "Number of bins - june 10 update 4:",
                      min = 1,
-                     max = 5,
-                     value = 8)
+                     max = 100,
+                     value = 50)
       ),
       
       # Show a plot of the generated distribution
@@ -41,7 +41,7 @@ server <- shinyServer(function(input, output) {
       bins <- seq(min(x), max(x), length.out = input$bins + 1)
       
       # draw the histogram with the specified number of bins
-      hist(x, breaks = bins, col = 'yellow', border = 'blue')
+      hist(x, breaks = bins, col = 'red', border = 'blue')
    })
 })
 
