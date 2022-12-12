@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": "3.6.3",
+  "metadata": {
+    "appmode": "static",
+    "primary_rmd": null,
+    "primary_html": "index.html",
+    "content_category": null,
+    "has_parameters": false
+  },
+  "packages": null,
+  "files": {
+    "index.html": {
+      "checksum": "96048f4f1d9ec9528326127b19f1ae1a"
+    },
+    "posit.svg": {
+      "checksum": "9dfe37902b1ffd0e7b5cdb11e308b169"
+    }
+  },
+  "users": null
+}
