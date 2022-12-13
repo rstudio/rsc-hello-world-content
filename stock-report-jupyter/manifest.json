@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "locale": "en_US.UTF-8",
+  "metadata": {
+    "appmode": "jupyter-static",
+    "entrypoint": "stock-report-jupyter.ipynb"
+  },
+  "python": {
+    "version": "3.8.2",
+    "package_manager": {
+      "name": "pip",
+      "version": "22.3",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "stock-report-jupyter.ipynb": {
+      "checksum": "5c38b544ec86d2d1f59d022f01015bef"
+    },
+    "requirements.txt": {
+      "checksum": "bef63903901ab0b9dd8211dfdbb80674"
+    },
+    "quandl-wiki-tsla.json.gz": {
+      "checksum": "3950ee9583143349c74e6caabcf4d47e"
+    }
+  }
+}
