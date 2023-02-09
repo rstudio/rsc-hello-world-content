@@ -1,6 +1,6 @@
 #* @get /
 root <- function(){
-  "first deploy-retest"
+  "first deploy-retest-delay"
 }
 
 #* @get /mean
