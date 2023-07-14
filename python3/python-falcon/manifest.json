@@ -6,7 +6,7 @@
   },
   "locale": "en_US.UTF-8",
   "python": {
-    "version": "3.7.4",
+    "version": "3.10.0",
     "package_manager": {
       "name": "pip",
       "version": "19.3.1",
