@@ -447,7 +447,7 @@
       "Repository": "https://cran.rstudio.com/",
       "description": {
         "Package": "stringi",
-        "Version": "1.2.3",
+        "Version": "1.7.12",
         "Date": "2018-05-16",
         "Title": "Character String Processing Facilities",
         "Description": "Allows for fast, correct, consistent, portable,\n    as well as convenient character string/text processing in every locale\n    and any native encoding. Owing to the use of the 'ICU' library,\n    the package provides 'R' users with platform-independent functions\n    known to 'Java', 'Perl', 'Python', 'PHP', and 'Ruby' programmers. Available\n    features include: pattern searching (e.g., with 'Java'-like regular\n    expressions or the 'Unicode' collation algorithm), random string generation,\n    case mapping, string transliteration, concatenation,\n    Unicode normalization, date-time formatting and parsing, and many more.",
