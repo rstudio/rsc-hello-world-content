@@ -1,4 +1,4 @@
-""" Present an interactive function explorer with slider widgets.
+""" updatePresent an interactive function explorer with slider widgets.
 
 Scrub the sliders to change the properties of the ``sin`` curve, or
 type into the title text box to update the title of the plot.
