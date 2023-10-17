@@ -1,4 +1,3 @@
-requests
 pandas
 bokeh==2.3.3
 numpy
