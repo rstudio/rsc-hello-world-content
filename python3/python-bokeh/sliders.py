@@ -42,6 +42,7 @@ plot.line("x", "y", source=source, line_width=3, line_alpha=0.6)
 
 
 # Set up widgets
+print("blue")
 text = TextInput(title="title", value="my sine wave")
 offset = Slider(title="offset", value=0.0, start=-5.0, end=5.0, step=0.1)
 amplitude = Slider(title="amplitude", value=1.0, start=-5.0, end=5.0, step=0.1)
