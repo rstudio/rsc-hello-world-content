@@ -21,7 +21,7 @@ from bokeh.layouts import column, row
 from bokeh.models import ColumnDataSource, Slider, TextInput
 from bokeh.plotting import figure
 import pandas
-print("update11 10:31AM")
+print("update12 10:36AM")
 # Set up data
 N = 200
 x = np.linspace(0, 4 * np.pi, N)
