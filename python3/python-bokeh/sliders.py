@@ -1,4 +1,4 @@
-""" updatePresent an interactive function explorer with slider widgets.
+"""Present an interactive function explorer with slider widgets.
 
 Scrub the sliders to change the properties of the ``sin`` curve, or
 type into the title text box to update the title of the plot.
@@ -27,8 +27,6 @@ N = 200
 x = np.linspace(0, 4 * np.pi, N)
 y = np.sin(x)
 source = ColumnDataSource(data=dict(x=x, y=y))
-#test
-#test2
 # Set up plot
 plot = figure(
     plot_height=400,
@@ -43,7 +41,6 @@ plot.line("x", "y", source=source, line_width=3, line_alpha=0.6)
 
 
 # Set up widgets
-print("blue")
 text = TextInput(title="title", value="blue my sine wave")
 offset = Slider(title="offset", value=0.0, start=-5.0, end=5.0, step=0.1)
 amplitude = Slider(title="amplitude", value=1.0, start=-5.0, end=5.0, step=0.1)
