@@ -21,7 +21,7 @@ from bokeh.layouts import column, row
 from bokeh.models import ColumnDataSource, Slider, TextInput
 from bokeh.plotting import figure
 import pandas
-print("update3 2:02")
+print("update4 2:03")
 
 # Set up data
 N = 200
