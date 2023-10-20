@@ -1,7 +1,7 @@
 {
-    "locale": "en_US.UTF-8",
+    "locale": "en_US.UTF-8ijlkj",
     "python": {
-        "version": "3.8.3",
+        "version": "3.11.3",
         "package_manager": {
             "version": "18.0",
             "name": "pip",
