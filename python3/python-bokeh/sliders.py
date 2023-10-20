@@ -21,7 +21,6 @@ from bokeh.layouts import column, row
 from bokeh.models import ColumnDataSource, Slider, TextInput
 from bokeh.plotting import figure
 import pandas
-print("fuzz 9:16AM")
 # Set up data
 N = 200
 x = np.linspace(0, 4 * np.pi, N)
@@ -31,7 +30,7 @@ source = ColumnDataSource(data=dict(x=x, y=y))
 plot = figure(
     plot_height=400,
     plot_width=400,
-    title="fuzz 9:16AM",
+    title="fuzz 9:19AM",
     tools="crosshair,pan,reset,save,wheel_zoom",
     x_range=[0, 4 * np.pi],
     y_range=[-2.5, 2.5],
