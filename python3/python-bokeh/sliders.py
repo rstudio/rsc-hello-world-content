@@ -29,7 +29,7 @@ y = np.sin(x)
 source = ColumnDataSource(data=dict(x=x, y=y))
 # Set up plot
 plot = figure(
-    plot_height=400,
+    plot_height=440,
     plot_width=400,
     title="fuzz new9:19AM",
     tools="crosshair,pan,reset,save,wheel_zoom",
