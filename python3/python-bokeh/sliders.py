@@ -40,7 +40,7 @@ plot.line("x", "y", source=source, line_width=3, line_alpha=0.6)
 
 
 # Set up widgets
-text = TextInput(title="title", value="9:32:03")
+text = TextInput(title="title", value="9:48")
 offset = Slider(title="offset", value=0.0, start=-5.0, end=5.0, step=0.1)
 amplitude = Slider(title="amplitude", value=1.0, start=-5.0, end=5.0, step=0.1)
 phase = Slider(title="phase", value=0.0, start=0.0, end=2 * np.pi)
