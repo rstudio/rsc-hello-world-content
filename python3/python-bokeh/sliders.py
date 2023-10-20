@@ -21,7 +21,9 @@ from bokeh.layouts import column, row
 from bokeh.models import ColumnDataSource, Slider, TextInput
 from bokeh.plotting import figure
 import pandas
-import requests
+import os
+print(os.environ["blue"])
+
 # Set up data
 N = 200
 x = np.linspace(0, 4 * np.pi, N)
