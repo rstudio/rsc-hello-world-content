@@ -30,7 +30,7 @@ source = ColumnDataSource(data=dict(x=x, y=y))
 plot = figure(
     plot_height=400,
     plot_width=400,
-    title="fuzz 9:19AM",
+    title="fuzz new9:19AM",
     tools="crosshair,pan,reset,save,wheel_zoom",
     x_range=[0, 4 * np.pi],
     y_range=[-2.5, 2.5],
@@ -40,7 +40,7 @@ plot.line("x", "y", source=source, line_width=3, line_alpha=0.6)
 
 
 # Set up widgets
-text = TextInput(title="title", value="fuzzagain 9:26")
+text = TextInput(title="title", value="newfuzzagain 9:26")
 offset = Slider(title="offset", value=0.0, start=-5.0, end=5.0, step=0.1)
 amplitude = Slider(title="amplitude", value=1.0, start=-5.0, end=5.0, step=0.1)
 phase = Slider(title="phase", value=0.0, start=0.0, end=2 * np.pi)
