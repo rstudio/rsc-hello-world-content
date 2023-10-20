@@ -4,8 +4,7 @@
         "version": "3.11.3",
         "package_manager": {
             "version": "18.0",
-            "name": "pip",
-            "package_file": "requirements.txt"
+            "name": "pip"
         }
     },
     "version": 1,
@@ -13,10 +12,6 @@
         "sliders.py": {
             "checksum": "84e45a5e4e775ce10710a8028a913355"
         },
-        "requirements.txt": {
-            "checksum": "72c6b949e261d1ae058c20e4169f1e0c"
-        }
-    },
     "metadata": {
         "appmode": "python-bokeh",
         "entrypoint": "sliders.py"
