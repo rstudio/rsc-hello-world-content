@@ -1,8 +1,8 @@
-nonexistent-package-foo
 shiny==0.7.0
 shinywidgets==0.3.0
 altair
 pandas
 vega
+anywidget
 
 
