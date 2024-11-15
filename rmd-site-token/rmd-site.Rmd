@@ -1,0 +1,18 @@
+---
+title: "Check CONNECT_CONTENT_SESSION_TOKEN"
+output: html_document
+resource_files:
+- _site.yml
+---
+
+## CONNECT_CONTENT_SESSION_TOKEN Check
+
+This document retrieves the value of the `CONNECT_CONTENT_SESSION_TOKEN` environment variable if it’s set.
+
+```{r}
+# Retrieve the token or show a message if not set
+token <- Sys.getenv("CONNECT_CONTENT_SESSION_TOKEN", unset = "Token not set")
+
+# Display the result
+cat("**CONNECT_CONTENT_SESSION_TOKEN:**", token)
+

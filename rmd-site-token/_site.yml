@@ -1,0 +1,9 @@
+name: "My R Markdown Site"
+output_dir: "_site"
+navbar:
+  title: "Home"
+  left:
+    - text: "Home"
+      href: "index.html"
+    - text: "About"
+      href: "about.html"
